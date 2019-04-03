@@ -29,7 +29,7 @@ class BookList extends Component {
                     <div className="row">
                       <div className="col-md-4">
                       <img class="card-img-top float-left" style={{width: '200px'}} 
-                          src={process.env.PUBLIC_URL + '/assets/image/book-list/image.png'} alt="Card image cap" />
+                          src={process.env.PUBLIC_URL + '/assets/image/book-list/image (2).svg'} alt="Card image cap" />
                       </div>
                       <div className="col-md-8 mt-5">
                         <h4>Remote: Office Not Required</h4>
@@ -43,7 +43,7 @@ class BookList extends Component {
                     <div className="row">
                       <div className="col-md-4">
                       <img class="card-img-top float-left" style={{width: '200px'}} 
-                          src={process.env.PUBLIC_URL + '/assets/image/book-list/image1.png'} alt="Card image cap" />
+                          src={process.env.PUBLIC_URL + '/assets/image/book-list/image (1).svg'} alt="Card image cap" />
                       </div>
                       <div className="col-md-8 mt-5">
                         <h4>Papillon</h4>
@@ -58,7 +58,7 @@ class BookList extends Component {
                     <div className="row">
                       <div className="col-md-4">
                       <img class="card-img-top float-left" style={{width: '200px'}} 
-                          src={process.env.PUBLIC_URL + '/assets/image/book-list/image 2.png'} alt="Card image cap" />
+                          src={process.env.PUBLIC_URL + '/assets/image/book-list/image 2.svg'} alt="Card image cap" />
                       </div>
                       <div className="col-md-8 mt-5">
                         <h4>The Dark Tower: The Gunslinger</h4>

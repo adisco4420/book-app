@@ -23,7 +23,7 @@ class ThankYou extends Component {
                         <h6 className="text-uppercase head-text mt-7 ">You May Also Be Interested In:</h6>
                         <div className="row mt-4 bts-img">
                             <div className="col-md-4">
-                                <img src={process.env.PUBLIC_URL + '/assets/image/thank-you/image1.png'} alt="half-circle" />
+                                <img src={process.env.PUBLIC_URL + '/assets/image/thank-you/image (1).svg'} alt="half-circle" />
                                 <div className="mt-3">
                                 <h6 className="head-text">Scar Tissue</h6>
                                     <p className="desc-text">Anthor Kieldis</p>
@@ -31,7 +31,7 @@ class ThankYou extends Component {
                             </div>
 
                             <div className="col-md-4">
-                                <img src={process.env.PUBLIC_URL + '/assets/image/thank-you/image 2.png'} alt="half-circle" />
+                                <img src={process.env.PUBLIC_URL + '/assets/image/thank-you/image 2.svg'} alt="half-circle" />
                                 <div className="mt-3">
                                 <h6 className="head-text">Eat Awesome</h6>
                                     <p className="desc-text">Paul Jervis</p>
@@ -40,7 +40,7 @@ class ThankYou extends Component {
 
                             
                             <div className="col-md-4">
-                                <img src={process.env.PUBLIC_URL + '/assets/image/thank-you/image.png'} alt="half-circle" />
+                                <img src={process.env.PUBLIC_URL + '/assets/image/thank-you/image.svg'} alt="half-circle" />
                                 <div className="mt-3">
                                 <h6 className="head-text">The Wastelands</h6>
                                     <p className="desc-text">Stephen King</p>
