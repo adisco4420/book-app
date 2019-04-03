@@ -1,0 +1,30 @@
+.desc-text{
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(56, 79, 125, 0.8);
+}
+.submit{
+    background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
+    border-radius: 8px;
+    font-weight: bold;
+    
+ }
+ .mt-7 {
+     margin-top: 10%
+ }
+ .bts-img img {
+    width: 70%
+ }
+ nav .navbar-nav .nav-item {
+     margin-left:  15%;
+ }
+ .navbar-nav{
+    margin: 0px 20%;
+ }
+ .navbar{
+     margin: 0px 7.5%;
+     background-color: white !important
+ }
+ nav .navbar-nav .nav-item  .nav-link{
+    color: rgb(61, 57, 57)
+ }

@@ -43,7 +43,9 @@ class Register extends Component {
                         placeholder="* * * * * *" />
                     </div>
 
-                    <button type="submit" class="btn py-2 submit btn-block text-light">SIGN UP</button>
+                    <button type="submit" class="btn py-2 submit btn-block text-light">
+                    <Link to="/thank-you"> SIGN UP</Link>
+                   </button>
                     </form>
                     <h5 className="desc-text text-center mt-3">Alredy have an account? <Link to="/register">Login</Link> </h5>
                     </div>

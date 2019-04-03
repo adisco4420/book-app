@@ -32,7 +32,7 @@ class SecondBoarding extends Component {
                     <Link to="/" >
                     <img src={process.env.PUBLIC_URL + '/assets/image/second_landing/Group.png'} alt="half-circle" />
                     </Link>
-                    <Link to="/">
+                    <Link to="/register">
                     <img className="float-right" src={process.env.PUBLIC_URL + '/assets/image/first_landing/Group 6.png'} alt="half-circle" />
                 
                     </Link>

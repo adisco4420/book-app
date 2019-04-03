@@ -12,6 +12,7 @@ import Login from './component/auth/login/Login';
 import Register from './component/auth/register/Register';
 import TeamView from './component/dashboard/team-view/TeamView';
 import SecondBoarding from './component/second_onboarding/SecondBoarding';
+import ThankYou from './component/thank-you/ThankYou';
 class App extends Component {
   render() {
     return (
@@ -25,7 +26,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route exact path="/second-onboarding" component={SecondBoarding} />
             <Route exact path="/register" component={Register} />
-            <Route exact path="/employee-dashboard" component={EmployeeDashboard} />
+            <Route exact path="/thank-you" component={ThankYou} />
             <Route exact path="/team-view" component={TeamView} />
             <Route exact path="/new-absence" component={NewAbsenceForm} />
 
