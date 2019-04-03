@@ -26,3 +26,7 @@
 .list-bboks h4, h6{
    color: #384F7D;
 }
+p{
+    color: rgba(56, 79, 125, 0.8);
+    font-weight: 500
+}

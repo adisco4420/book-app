@@ -9,6 +9,7 @@ import Register from './component/auth/register/Register';
 import SecondBoarding from './component/second_onboarding/SecondBoarding';
 import ThankYou from './component/thank-you/ThankYou';
 import BookList from './component/dashboard/book-list/BookList';
+import AddReview from './component/dashboard/add-review/AddReview';
 class App extends Component {
   render() {
     return (
@@ -24,6 +25,7 @@ class App extends Component {
             <Route exact path="/register" component={Register} />
             <Route exact path="/thank-you" component={ThankYou} />
             <Route exact path="/book-list" component={BookList} />
+            <Route exact path="/add-review" component={AddReview} />
           </Switch> 
           {/* <Footer /> */}
         </div>

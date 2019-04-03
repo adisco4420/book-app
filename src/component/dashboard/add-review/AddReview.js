@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './booklist.css';
+import './addreview.css';
 import { Link } from 'react-router-dom';
-class BookList extends Component {
+class AddReview extends Component {
     render() {
         return(
             <React.Fragment>            
@@ -9,70 +9,57 @@ class BookList extends Component {
                <div className="row">
                 <div className="col-12 top-body">
                 <img style={{width: '100%', height: '170px'}} src={process.env.PUBLIC_URL + '/assets/image/book-list/Ellipse 2.2.png'} alt="half-circle" />
+                
+                <Link to="/book-list">
+                <i style={{  position: 'absolute', top: '28%', left: '15%'}}  
+                className="fa fa-arrow-left fa-2x text-light"></i>
+                </Link>
                 <h3 style={{  position: 'absolute', top: '28%', left: '44%'}} 
-                    className="header-title text-light">My Book List </h3>
-                    <div className="col-md-6 offset-md-3">
-                    <form id="search-files" action="" method="get" style={{marginTop: '-9%'}}>
-                <div class="form-group has-search">
-                  <i class="fa fa-search form-control-feedback"></i>
-                  <input style={{border: '1px solid white', padding: '5% 40px'}} type="search" name="" id="" class="bg-none form-control" placeholder="Search book" />
-                </div>
-              </form>
-                    </div>
-                </div>
+                    className="header-title text-light">Add Book Review </h3>
+            </div>
           </div>
                 <div className="row">
-                  <h5 className="text-uppercase px-3 " 
-                  style={{color: ' rgba(56, 79, 125, 0.8)', marginLeft: '2.5%'}}>Books Reviewed By You</h5>
+
                   <div className='col-md-12 px-5 list-bboks'>
-                  <div class="card" >
+                  <div class="" >
                     <div className="row">
                       <div className="col-md-4">
                       <img class="card-img-top float-left" style={{width: '200px'}} 
-                          src={process.env.PUBLIC_URL + '/assets/image/book-list/image.png'} alt="Card image cap" />
+                          src={process.env.PUBLIC_URL + '/assets/image/book-list/image.svg'} alt="Card image cap" />
                       </div>
                       <div className="col-md-8 mt-5">
-                        <h4>Remote: Office Not Required</h4>
+                        <h4>Pet Sematary</h4>
                         <h6>Jason Fried</h6>
-                        <img  src={process.env.PUBLIC_URL + '/assets/image/book-list/Group 2.1.png'} alt="rating-stars"/>
-                      </div>
+                        <h6>
+                            <i className="fa fa-star"></i> 4.68
+                        </h6>
+                        <p>2, 164 reviews</p>
+                       </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12 mt-3">
+                            <p>
+                            Sometimes dead is better....When the Creeds move into a beautiful old house in rural Maine, 
+                            it all seems too good to be true: 
+                            physician father, beautiful wife, charming little daughter, 
+                            adorable infant son -- and now an idyllic home.... 
+                            </p>
+                            <p className="more-btn">Full Synopsis</p>
+                            <hr />
+                        </div>
+                        
+                        <div className="col-12 text-center mt-5 mb-5">
+                            <h6> TAP TO ADD RATING</h6>
+                            <img  src={process.env.PUBLIC_URL + '/assets/image/book-list/Group 2.1.png'} alt="rating-stars"/>
+                
+                        </div>
                     </div>
                   </div>
                   
-                  <div class="card mt-4" >
-                    <div className="row">
-                      <div className="col-md-4">
-                      <img class="card-img-top float-left" style={{width: '200px'}} 
-                          src={process.env.PUBLIC_URL + '/assets/image/book-list/image1.png'} alt="Card image cap" />
-                      </div>
-                      <div className="col-md-8 mt-5">
-                        <h4>Papillon</h4>
-                        <h6>Henri Chaerriere</h6>
-                        <img  src={process.env.PUBLIC_URL + '/assets/image/book-list/Group 2.1.png'} alt="rating-stars"/>
-                      </div>
-                    </div>
-                  </div>
-
-
-                   <div class="card mt-4" >
-                    <div className="row">
-                      <div className="col-md-4">
-                      <img class="card-img-top float-left" style={{width: '200px'}} 
-                          src={process.env.PUBLIC_URL + '/assets/image/book-list/image 2.png'} alt="Card image cap" />
-                      </div>
-                      <div className="col-md-8 mt-5">
-                        <h4>The Dark Tower: The Gunslinger</h4>
-                        <h6>Stephen King</h6>
-                        <img  src={process.env.PUBLIC_URL + '/assets/image/book-list/Group 2.1.png'} alt="rating-stars"/>
-                      </div>
-                    </div>
-                  </div>
 
                   </div>
                   <div className="col-md-12 px-10 mb-4 mt-3">
-                        <button className="btn btn-block py-2 submit ">
-                        <Link to="/add-review" className="text-light">ADD BOOK REVIEW</Link>
-                        </button>
+                        <button className="btn btn-block py-2 submit text-light">NEXT</button>
                     </div>
                 </div>
         </div>
@@ -120,4 +107,4 @@ class BookList extends Component {
     }
 
 }
-export default BookList;
+export default AddReview;

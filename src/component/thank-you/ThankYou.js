@@ -72,7 +72,7 @@ class ThankYou extends Component {
                  </Link>
                 </li>
                 <li className="nav-item ">
-                  <Link className="nav-link text-center" to="/thank-you">
+                  <Link className="nav-link text-center" to="/add-review">
                   <span className="fa fa-star fa-2x"></span>
                   <p>AddReview</p>
                    <span className="sr-only">
