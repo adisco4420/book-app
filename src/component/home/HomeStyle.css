@@ -1,0 +1,16 @@
+.head-text{
+ color: #384F7D;
+ font-weight: bold
+
+}
+.desc-text{
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(56, 79, 125, 0.8);
+}
+.bt-img{
+    position: absolute
+}
+.container{
+    background: linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);
+   }
