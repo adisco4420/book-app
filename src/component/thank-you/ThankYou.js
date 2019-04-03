@@ -6,7 +6,7 @@ class ThankYou extends Component {
     render() {
         return (
             <React.Fragment>            
-                <div className="container">
+                <div className="container  mb-5">
                 <div className="row text-center py-5">
                     <div className="col-md-12">
                     <img src={process.env.PUBLIC_URL + '/assets/image/thank-you/Group.png'} alt="half-circle" />
@@ -59,31 +59,31 @@ class ThankYou extends Component {
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <ul className="navbar-nav text-dark">  
                 <li className="nav-item active">
-                  <a className="nav-link text-center" href="#">
+                  <Link className="nav-link text-center" to="/thank-you">
                   <span className="fa fa-home fa-2x"></span>
                   <p>Timeline</p>
                    <span className="sr-only">
-                  (current)</span></a>
+                  (current)</span></Link>
                 </li>
                 <li className="nav-item ">
-                  <a className="nav-link text-center" href="#">
+                  <Link className="nav-link text-center" to="/book-list">
                   <span className="fa fa-book fa-2x"></span>
                   <p>MyBooks</p>
-                 </a>
+                 </Link>
                 </li>
                 <li className="nav-item ">
-                  <a className="nav-link text-center" href="#">
+                  <Link className="nav-link text-center" to="/thank-you">
                   <span className="fa fa-star fa-2x"></span>
                   <p>AddReview</p>
                    <span className="sr-only">
-                  (current)</span></a>
+                  (current)</span></Link>
                 </li>
                 <li className="nav-item ">
-                  <a className="nav-link text-center" href="#">
+                  <Link className="nav-link text-center" to="/thank-you">
                   <span className="fa fa-bell fa-2x"></span>
                   <p>Notification</p>
                    <span className="sr-only">
-                  (current)</span></a>
+                  (current)</span></Link>
                 </li>
               </ul>
             </div>

@@ -1,0 +1,28 @@
+.top-body img{
+    width: 100%;
+    height: 140px;
+}
+.header-title {
+    position: absolute;
+    top: 28%;
+    left: 44%;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 3rem;
+    text-align: center;
+    pointer-events: none;
+    color: rgba(0, 0, 0, 0.32);
+    font-size: 1.5rem;
+}
+.list-bboks h4, h6{
+   color: #384F7D;
+}
