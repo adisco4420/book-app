@@ -69,6 +69,9 @@ class BookList extends Component {
                   </div>
 
                   </div>
+                  <div className="col-md-12 px-10 mb-4 mt-3">
+                        <button className="btn btn-block py-2 submit text-light">ADD BOOK REVIEW</button>
+                    </div>
                 </div>
         </div>
         <nav className="navbar fixed-bottom navbar-expand-sm  bg-light ">
