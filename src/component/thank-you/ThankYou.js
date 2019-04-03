@@ -53,8 +53,8 @@ class ThankYou extends Component {
             </div>
             <nav className="navbar fixed-bottom navbar-expand-sm  bg-light ">
             {/* <a className="navbar-brand" href="#">Bottom navbar</a> */}
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon"></span>
+            <button className="navbar-toggler bg-primary " type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon text-dark"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <ul className="navbar-nav text-dark">  
