@@ -13,10 +13,8 @@ class Register extends Component {
                 </div>
                 <div className="row text-center ml-5">
                     <div className="col-md-12">
-                    <img className="light-bulb" src={process.env.PUBLIC_URL + '/assets/image/register/Ellipse.png'} alt="half-circle" />
-                    <img className="vector" src={process.env.PUBLIC_URL + '/assets/image/register/light-bulb.png'} alt="half-circle" />
-
-                    </div>
+                    <img className="light-bulb" src={process.env.PUBLIC_URL + '/assets/image/register/finalball.png'} alt="half-circle" />
+                        </div>
                     <div className="col-md-12">
                         <h3 className=" mt-4 head-text">Welcome !</h3>
                         <h6 className=" desc-text">Create your account to get started, After that,</h6>
@@ -47,7 +45,7 @@ class Register extends Component {
                     <Link to="/thank-you" className="text-light"> SIGN UP</Link>
                    </button>
                     </form>
-                    <h5 className="desc-text text-center mt-3">Alredy have an account? <Link to="/register">Login</Link> </h5>
+                    <h5 className="desc-text login text-center mt-3">Alredy have an account? <Link to="/register">Login</Link> </h5>
                     </div>
                 </div>
          

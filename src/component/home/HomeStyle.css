@@ -9,7 +9,8 @@
     color: rgba(56, 79, 125, 0.8);
 }
 .bt-img{
-    position: absolute
+    position: absolute;
+    bottom: 5px
 }
 .container{
     background: linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);

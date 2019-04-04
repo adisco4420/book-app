@@ -46,3 +46,7 @@
  .try-pwd .form-control{
     border-bottom: 3px solid #445984 !important; 
  }
+ .login{
+     font-size: 1.2rem !important;
+     margin-bottom: 5%
+ }
